@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +7,9 @@
 
 :root {
     /* Core Colors */
-    --navy-blue: #1a2a3a;         /* Deep navy blue */
-    --steel-blue: #2b3d4f;        /* Rich steel blue */
-    --silver-gray: #a4b0be;       /* Metallic silver */
+    --navy-blue: #1a2a3a;        
+    --steel-blue: #2b3d4f;       
+    --silver-gray: #a4b0be;       
     --pure-white: #ffffff;
     --shadow-color: rgba(26, 42, 58, 0.15);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -391,6 +391,8 @@ body {
     position: relative;
     transition: all 0.3s ease;
 }
+
+
 
 .service-icon i {
     font-size: 1.8rem;
