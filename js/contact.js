@@ -38,7 +38,7 @@ ${message}
         // Open email client
         window.location.href = mailtoLink;
 
-        // Reset form
+        // Reseting the form
         contactForm.reset();
     });
 });
