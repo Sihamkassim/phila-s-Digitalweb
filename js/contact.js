@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const subject = this.subject.value.trim();
         const message = this.message.value.trim();
 
-        // Create email body
+    
         const emailBody = `
 Name: ${name}
 Email: ${email}
@@ -25,7 +25,6 @@ Message:
 ${message}
         `;
 
-        // Create mailto link
         const mailtoLink = `mailto:philipostesfaye26@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
 
         // Show success message
